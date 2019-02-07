@@ -8,5 +8,9 @@ namespace Training_Project.Controllers
 {
     public class ComicBooksController : Controller
     {
+        public string Detail()
+        {
+            return "Hello from the ComicBooks Controller";
+        }
     }
 }
